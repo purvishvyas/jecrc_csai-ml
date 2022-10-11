@@ -1,0 +1,200 @@
+Rules Of variable[Python]
+
+1. Cant start with no.
+ex. 1='python'; a1='python'
+
+2. No space
+a 1='python'
+
+3. no special character
+a$='hello'
+
+4. cant use keyword
+for=2.2
+
+----------------------------------------------------------
+Python Operator
+
+7 types-
+1.Arithmatic              +,-,*,/,%,//,**
+
+2.Comparision/relational  <,>,<=,>=,!=,==
+
+3.Assignment              +,+=,-=,/=,//=,*=
+
+4.Bitwise                 &,|,^
+
+5.Logocal                 and,or,not
+
+6.identity                is,is not
+
+7.Membership              in,not in
+
+-----------------------------------------------------------
+
+()--function,expression,tuple
+[]--list,indexing,slicing
+{}--set,dictionary
+<>--NO use
+
+-----------------------------------------------------------
+
+data type in python
+
+1.Numeric----int--a=5
+             float--b=5.5
+             complex--3+5j
+
+2.String----str--a='hello'/"Hello"/'''hi'''
+                 b="'hello'''(not possible)
+
+3.List----list--my_list=['abc',5,5,5,2+8j]
+
+4.Tuple----tuple----my tuple=(18,1,8,'duck','you')
+
+5.Set----set----{1,22,53,546}
+
+6.Dictionary----dict{key:value}
+
+Boolean----True,False
+
+-------------------------------------------------------------
+String
+
+*Indexing
+a='Hello Bhai'
+a[starting pnt:stop pnt(excluding):increment/decrement]
+just as (i=0:i<n:i++)
+same for revesrsing
+a[end pnt:start pnt(not including):increment/decrement]
+
+-------------------------------------------------------------
+
+Tuple
+
+1.()
+2.comma sep val
+3.immutable
+4.homo/hetro
+5.indexing/slicing
+
+--------------------------------------------------------------
+
+Set
+1.unorderred
+2.indexing/slicing(no use)
+3.unique collection
+
+--------------------------------------------------------------
+
+Data Type Dictionary
+
+1.Unorder
+2.Key Value Pair
+indexing/slicing not possible
+
+--------------------------------------------------------------
+
+3 Statement
+1.condition/decision making--if-elif-else
+2.Looping--for and while
+3.exception handling----try,except
+
+--------------------------------------------------------------
+
+Simple if
+
+if age<18:
+print('A gift')
+if age>=18 and age<=20;
+print('a gift')
+print('a task')
+if age>age:
+print('Koi gift nhi h')
+----------------------------------------------------------------
+
+Nested
+
+if today=='Saturday'
+print('Halfday work')
+elif today=='Sunday'
+if condition=='sick':
+print('Rest')
+else:
+print('party')
+------------------------------------------------------------------
+range(start point(including),stop point(excluding),step)
+------------------------------------------------------------------
+
+Loop
+
+1.For loop
+2.While loop
+-----------------------------------------------------------------
+Function:
+
+1.NO i/p No o/p
+2.NO i/p But o/p
+3.i/p No o/p
+4.i/p and o/p
+-----------------------------------------------------------------
+
+1.taking multiple i/p
+2.returnong multiple o/p
+3.keyword argument
+4.default values
+5.args
+6.**kwargs
+
+-----------------------------------------------------------------
+
+Module---it is .py file; Ex-OS,Math,
+Package---it is a collection of Modules
+Libraries----it is collection of package
+
+------------------------------------------------------------------
+
+1.Capitalize
+2.casefold
+3.cat-add
+4.cetre-np string
+ website-- kaggle.com(make account)
+           github.com
+
+-----------------------------------------------------------------
+
+name,age,roll
+'vyas',21,100
+'sunny',20,102
+'bunny',25,103
+'ashish',24,104
+
+--------------------------------------------------------------------
+
+name		age		roll
+vyas		21		100
+sunny		20		102
+bunny		25		103
+ashish	24		104
+
+--------------------------------------------------------------------
+
+GIT Process
+
+>create new repository
+>provide valid name
+>select public repo
+>finish
+
+goto your folder
+type cmd in adresss bar and enter
+
+Jecrc CS(GIT Commands)
+ git init                                   #Initialize the GIT folder
+git add .                                   #Add all files/folder in git folder
+git ongig user.name "Your name"
+git ongig user.email "your emain@id.com"
+git remote add origin "your repolink.git"
+git commit -m "any message"
+git push -u origin main
+
